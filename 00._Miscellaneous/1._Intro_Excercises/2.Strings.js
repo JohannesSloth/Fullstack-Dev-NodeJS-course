@@ -7,8 +7,8 @@ const numberTwo = "2.30";
 // add those two numbers and show the result
 // you cannot touch line 1 neither line 2
 
-const resultEx3 = Number(numberOne) + Number(numberTwo)
-console.log(resultEx3);
+const addedNumbersInFloat = Number(numberOne) + Number(numberTwo)
+console.log(addedNumbersInFloat);
 
 // --------------------------------------
 
@@ -19,9 +19,9 @@ console.log(resultEx3);
 const anotherNumberOne = "1.10";
 const anotherNumberTwo = "2.30";
 
-const resultEx4 = Number(numberOne) + Number(numberTwo)
-const resultEx4TwoDecimals = resultEx4.toFixed(2);
-console.log(resultEx4TwoDecimals);
+const addedNumbers = Number(numberOne) + Number(numberTwo)
+const addedNumbersTwoDecimals = addedNumbers.toFixed(2);
+console.log(addedNumbersTwoDecimals);
 
 // --------------------------------------
 // Exercise 5 - Decimals and average
@@ -33,9 +33,9 @@ const three = 98;
 // Show in the console the avg. with 5 decimals
 
 const sum = one + two + three
-const avg = sum / 3
-const avgFiveDecimals = avg.toFixed(5)
-console.log(avgFiveDecimals);
+const average = sum / 3
+const averageFiveDecimals = average.toFixed(5)
+console.log(averageFiveDecimals);
 
 
 
@@ -57,8 +57,8 @@ const fact = "You are learning javascript!";
 
 // capitalize the J in Javascript
 
-const factWithCapJ = fact.replace('j', 'J')
-console.log(factWithCapJ);
+const factWithCapitalJ = fact.replace('j', 'J')
+console.log(factWithCapitalJ);
 
 // --------------------------------------
 
